@@ -1,0 +1,21 @@
+{
+  "name": "binary-morph-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Binary image morphology and connected-component measurement backend (TypeScript, Node.js, SQLite). No web UI, no ML, no external image services.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node src/cli.ts serve",
+    "stop": "node src/cli.ts stop",
+    "demo": "node src/demo.ts",
+    "test": "node --test tests/morphology.test.ts tests/components.test.ts tests/e2e.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "typescript": "^5.6.0"
+  }
+}

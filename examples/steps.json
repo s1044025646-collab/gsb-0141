@@ -1,0 +1,7 @@
+[
+  { "op": "label", "connectivity": 4, "border": "zero" },
+  { "op": "erode", "se": "cross", "border": "zero" },
+  { "op": "label", "connectivity": 4, "border": "zero" },
+  { "op": "dilate", "se": "cross", "border": "zero" },
+  { "op": "label", "connectivity": 4, "border": "zero" }
+]
