@@ -1,0 +1,7 @@
+{
+  "name": "open-then-close",
+  "steps": [
+    { "op": "open", "se": { "name": "cross", "shape": [[0,1,0],[1,1,1],[0,1,0]], "anchorRow": 1, "anchorCol": 1 } },
+    { "op": "close", "se": { "name": "cross", "shape": [[0,1,0],[1,1,1],[0,1,0]], "anchorRow": 1, "anchorCol": 1 } }
+  ]
+}

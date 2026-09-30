@@ -1,0 +1,31 @@
+{
+  "name": "b",
+  "version": "1.0.0",
+  "description": "二值图像形态学与连通域测量后端 (TypeScript + Node.js + SQLite)",
+  "type": "module",
+  "bin": {
+    "morph-cli": "src/cli/cli.ts"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "demo": "tsx src/demo.ts",
+    "start": "tsx src/server-main.ts",
+    "cli": "tsx src/cli/cli.ts",
+    "stop": "node scripts/stop.mjs",
+    "clean": "node scripts/clean.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.11"
+  }
+}
